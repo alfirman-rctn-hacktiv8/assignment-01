@@ -7,4 +7,4 @@ const calculate = () => (screen.innerHTML = new Function("return " + screen.inne
 
 const clearAll = () => (screen.innerHTML = "");
 
-const backspace = () => (screen.innerHTML = screen.innerHTML.slice(0,-1))
+const backspace = () => (screen.innerHTML = screen.innerHTML.slice(0,-1));
