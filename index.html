@@ -18,22 +18,22 @@
       <div class="h-3/4 bg-gray-400 grid grid-cols-4 gap-1 p-1">
         <div onclick="clearAll()" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">AC</div>
         <div onclick="backspace()"  class="bg-green-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">CE</div>
-        <div onclick="addValue('/')" class="vide bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">/</div>
-        <div onclick="addValue('*')" class="mes bg-yellow-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">*</div>
-        <div onclick="addValue('7')" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">7</div>
-        <div onclick="addValue('8')" class="bg-green-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">8</div>
-        <div onclick="addValue('9')" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">9</div>
-        <div onclick="addValue('-')" class="bg-yellow-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">-</div>
-        <div onclick="addValue('4')" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">4</div>
-        <div onclick="addValue('5')" class="bg-green-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">5</div>
-        <div onclick="addValue('6')" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">6</div>
-        <div onclick="addValue('+')" class="bg-yellow-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">+</div>
-        <div onclick="addValue('1')" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">1</div>
-        <div onclick="addValue('2')" class="bg-green-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">2</div>
-        <div onclick="addValue('3')" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">3</div>
+        <div onclick="addValue('/',validate)" class="vide bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">/</div>
+        <div onclick="addValue('*',validate)" class="mes bg-yellow-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">*</div>
+        <div onclick="addValue('7',validate)" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">7</div>
+        <div onclick="addValue('8',validate)" class="bg-green-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">8</div>
+        <div onclick="addValue('9',validate)" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">9</div>
+        <div onclick="addValue('-',validate)" class="bg-yellow-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">-</div>
+        <div onclick="addValue('4',validate)" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">4</div>
+        <div onclick="addValue('5',validate)" class="bg-green-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">5</div>
+        <div onclick="addValue('6',validate)" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">6</div>
+        <div onclick="addValue('+',validate)" class="bg-yellow-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">+</div>
+        <div onclick="addValue('1',validate)" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">1</div>
+        <div onclick="addValue('2',validate)" class="bg-green-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">2</div>
+        <div onclick="addValue('3',validate)" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">3</div>
         <div onclick="calculate()" class="bg-yellow-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer row-span-2">=</div>
-        <div onclick="addValue('0')" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer col-span-2">0</div>
-        <div onclick="addValue('.')" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">.</div>
+        <div onclick="addValue('0',validate)" class="bg-pink-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer col-span-2">0</div>
+        <div onclick="addValue('.',validate)" class="bg-blue-200 flex justify-center items-center font-bold text-gray-500 cursor-pointer">.</div>
       </div>
     </main>
     <script src="script.js"></script>
