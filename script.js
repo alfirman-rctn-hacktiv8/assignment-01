@@ -17,7 +17,7 @@ const backspace = () => (screen.innerHTML = screen.innerHTML.slice(0, -1));
 const validate = (value) => {
   const length = screen.innerHTML.length;
 
-  operators = ["+","-","*","/"]
+  const operators = ["+","-","*","/"]
 
   const parseValue = parseInt(value);
   const lastScreenValue = parseInt(screen.innerHTML[length - 1]);
