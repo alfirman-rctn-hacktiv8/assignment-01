@@ -8,6 +8,7 @@ const addValue = (value, validate) => {
 
 const calculate = () => {
   if (screen.innerHTML) screen.innerHTML = new Function("return " + screen.innerHTML)();
+  if (screen.innerHTML.split("").some((el)=> el === "." )) hasComma = true;
 };
 
 const clearAll = () => (screen.innerHTML = "");
